@@ -1,0 +1,440 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html, body {
+  overflow-x: hidden; /* Предотвращает появление горизонтальной полосы прокрутки */
+}
+
+.container__inner {
+  width: 100vw;
+}
+
+.nav-menu {
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.menu-block1, .menu-block2 {
+  display: flex;
+}
+
+.menu-block1 {
+  gap: 60px;
+}
+
+.menu-block2 {
+  gap: 50px;
+}
+
+.nav-stroke {
+  color: black;
+  border-radius: 35px;
+  font-family: "rajdhani", sans-serif;
+}
+
+.nav-page {
+  padding: 7px 25px;
+  border-radius: 35px;
+  border: #686868 solid 2px;
+}
+
+.nav-link-img {
+  position: absolute;
+  width: 3%;
+}
+
+.nav-link-img > img {
+  width: 100%;
+}
+
+.sign-in, .sign-up {
+  font-weight: bold;
+  background-color: #FE8800;
+  padding: 10px 25px;
+}
+
+.ad {
+  margin-top: 70px;
+  position: relative;
+  width: 100vw;
+  height: 42vw;
+}
+
+.bcg-img {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+}
+
+.smartphone {
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+}
+
+.ad-text {
+  color: white;
+  position: absolute;
+  bottom: 20%;
+  left: 33%;
+}
+
+.ad-heading {
+  max-width: 500px;
+  font-family: "bruno ace", sans-serif;
+  line-height: 40px;
+}
+
+.ad-stroke {
+  max-width: 800px;
+  margin-top: 15px;
+  font-family: "bruno ace", sans-serif;
+}
+
+.ad-links {
+  position: absolute;
+  width: 21%;
+  height: 23.1%;
+  right: 9.7%;
+}
+
+.bcg-links {
+  position: absolute;
+  width: 100%;
+}
+
+.arrow-bcg {
+  position: absolute;
+  width: 30%;
+  left: 1%;
+}
+
+.link-arrow {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  font-size: 40px;
+  transform: rotate(45deg);
+}
+
+.ellipse-gray, .ellipse-orang {
+  position: absolute;
+  width: 20%;
+  left: 34%;
+  top: 10%;
+}
+
+.percent {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-weight: bold;
+}
+
+.project-text {
+  position: absolute;
+  font-weight: bolder;
+  right: 15%;
+  top: 25%;
+}
+
+.network {
+  position: absolute;
+  bottom: 6.5%;
+}
+
+.facebook {
+  width: 15%;
+  left: 5%;
+}
+
+.apple {
+  width: 15%;
+  left: 15%;
+}
+
+.tik-tok {
+  width: 17%;
+  left: 25%;
+}
+
+.project-link {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  color: black;
+  font-weight: bold;
+  background-color: #FE8800;
+  padding: 15px 20px;
+  border-radius: 35px;
+  margin: auto;
+}
+
+.swiper {
+  width: 90vw;
+  margin: 100px auto 0 auto !important;
+}
+
+.swiper-elements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.swiper-heading {
+  font-family: "bruno ace", sans-serif;
+}
+
+.swiper-stroke {
+  font-family: "bruno ace", sans-serif;
+  max-width: 450px;
+}
+
+.swiper-slide img {
+  width: 75%;
+}
+
+.slide-heading {
+  font-family: "bruno ace", sans-serif;
+}
+
+.slide-text {
+  max-width: 319px;
+  font-family: "bruno ace", sans-serif;
+}
+
+.swiper-arrow-left, .swiper-arrow-right {
+  font-size: 25px;
+  margin-top: 7px;
+}
+
+.swiper-arrow-left {
+  margin-right: 19px;
+}
+
+.swiper-arrow-right {
+  margin-right: 8.7px;
+}
+
+.swiper-nav-bcg {
+  position: absolute;
+  width: 3%;
+  z-index: -1;
+}
+
+.swiper-bcg-orang {
+  right: 0;
+}
+
+.swiper-bcg-gray {
+  right: 45px;
+}
+
+.info {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0 100px 0 100px;
+}
+
+.info-part1 {
+  width: 50vw;
+}
+
+.info-heading-part1 {
+  font-size: 40px;
+  font-family: "rajdhani", sans-serif;
+}
+
+.info-stroke-part1 {
+  margin-top: 15px;
+  max-width: 450px;
+  font-size: 15px;
+  font-family: "bruno ace", sans-serif;
+}
+
+.info-part2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: auto;
+}
+
+.info-bcg {
+  position: absolute;
+  width: 90%;
+  right: 15%;
+}
+
+.heading-info-part2 {
+  position: absolute;
+  top: 60px;
+  left: 5%;
+  z-index: 400;
+  font-family: "bruno ace", sans-serif;
+}
+
+.info-stroke-part2 {
+  font-size: 13px;
+  max-width: 380px;
+  position: absolute;
+  top: 105px;
+  left: 5%;
+  z-index: 400;
+  font-family: "bruno ace", sans-serif;
+}
+
+.avatar-icon {
+  width: 16.5%;
+  top: 58px;
+  right: 27%;
+  position: absolute;
+  z-index: 300;
+}
+
+.info-white-bcg {
+  position: absolute;
+  width: 80%;
+  right: 21%;
+  top: 43px;
+}
+
+.info-dark-bcg {
+  position: absolute;
+  width: 80%;
+  right: 20%;
+  top: 220px;
+}
+
+.info-white-circle {
+  position: absolute;
+  top: 497px;
+  width: 10;
+  right: 33%;
+  z-index: 100;
+}
+
+.info-dark-element {
+  position: absolute;
+  width: 15%;
+  top: 520px;
+  right: 22.5%;
+}
+
+.info-percent {
+  position: absolute;
+  top: 227px;
+  left: 15.5%;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "rajdhani", sans-serif;
+  font-weight: bolder;
+}
+
+.info-circle-percent75 {
+  position: absolute;
+  width: 23%;
+  top: 160px;
+  left: 8%;
+  z-index: 100;
+}
+
+.info-circle-percent25 {
+  position: absolute;
+  width: 23%;
+  top: 160px;
+  left: 8%;
+}
+
+.info-arrow-bcg {
+  position: absolute;
+  top: 362.5px;
+}
+
+.info-arrow-right {
+  position: absolute;
+  font-size: 50px;
+  transform: rotate(-45deg);
+  top: 370px;
+  left: 1.7%;
+}
+
+.info-network {
+  position: absolute;
+  width: 8%;
+}
+
+.info-facebook {
+  left: 15%;
+  top: 355px;
+}
+
+.info-apple {
+  left: 20%;
+  top: 355px;
+}
+
+.info-tiktok {
+  left: 25%;
+  width: 9.5%;
+  top: 352px;
+}
+
+.heading-story1 {
+  color: white;
+  position: absolute;
+  right: 35%;
+  top: 250px;
+  font-family: "outfit", sans-serif;
+}
+
+.stroke-story1 {
+  max-width: 200px;
+  color: white;
+  position: absolute;
+  right: 25%;
+  top: 300px;
+  line-height: 25px;
+  font-family: "outfit", sans-serif;
+}
+
+.heading-story2 {
+  color: white;
+  position: absolute;
+  left: 5%;
+  top: 480px;
+  font-family: "outfit", sans-serif;
+}
+
+.stroke-story2 {
+  max-width: 400px;
+  color: white;
+  position: absolute;
+  left: 5%;
+  line-height: 25px;
+  top: 530px;
+  font-family: "outfit", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
